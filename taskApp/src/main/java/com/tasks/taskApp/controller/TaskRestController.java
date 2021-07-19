@@ -34,6 +34,7 @@ public class TaskRestController {
             @ApiResponse(code = 401, message = "not authorized!"), 
             @ApiResponse(code = 403, message = "forbidden!!!"),
             @ApiResponse(code = 404, message = "not found!!!") })
+	@GetMapping
 	public List<Task> tasks(){
 		return taskService.getAll();
 	}
