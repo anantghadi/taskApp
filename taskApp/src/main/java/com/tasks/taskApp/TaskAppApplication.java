@@ -9,8 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
 import com.tasks.taskApp.model.Task;
 import com.tasks.taskApp.service.ITaskService;
 
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
-
 @ComponentScan
 @SpringBootApplication
 public class TaskAppApplication implements CommandLineRunner{
